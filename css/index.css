@@ -142,6 +142,13 @@ div {
   font-size: 14px;
 }
 
+#thirdSection button {
+  border: 0;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #d2b686;
+}
+
 @media (min-width: 768px) {
   #thirdSectionContainer #overlayImg {
     padding-top: 0;
