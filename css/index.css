@@ -200,3 +200,29 @@ div {
     padding-left: 8%;
   }
 }
+
+footer {
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-family: "Cardillac";
+  font-weight: bold;
+  color: #d2b686;
+}
+
+footer img {
+  height: 50px !important;
+}
+
+footer .btn-outline-secondary {
+  color: #d2b686;
+  border-color: #d2b686;
+}
+
+footer .btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #d2b686;
+  border-color: #d2b686;
+}
