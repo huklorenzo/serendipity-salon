@@ -31,7 +31,7 @@ div {
 }
 
 #headerBackground {
-  background-image: url("../assets/img/homepage/homepage-1.jpg");
+  background-image: url("../assets/img/homepage/header-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -44,7 +44,7 @@ div {
 
 #headerBackground::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 0;
   right: 0;
@@ -92,11 +92,16 @@ div {
   padding: 10px 20px;
   background-color: #d2b686;
   color: #fff;
+  transition: transform 0.2s;
+}
+
+#mainSection button:hover {
+  transform: scale(1.1);
 }
 
 #secondSection {
   background-color: #ffff;
-  padding: 10% 0;
+  padding: 5% 0;
 }
 
 #secondSection .container {
@@ -106,6 +111,7 @@ div {
 
 #secondSectionContainer .text-container {
   text-align: center;
+  padding: 0 50px;
 }
 
 #secondSectionContainer img {
@@ -125,6 +131,7 @@ div {
 
 #thirdSectionContainer .text-container {
   text-align: center;
+  padding: 0 20px;
 }
 
 #thirdSectionContainer img {
@@ -147,18 +154,23 @@ div {
   padding: 10px 20px;
   background-color: #fff;
   color: #d2b686;
+  transition: transform 0.2s;
+}
+
+#thirdSection button:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 768px) {
   #thirdSectionContainer #overlayImg {
     padding-top: 0;
     padding-bottom: 0;
-    margin-right: -5rem;
+    margin-right: -8rem;
     z-index: 1;
     text-align: right;
   }
 
   #thirdSectionContainer .services-container {
-    padding-left: 5%;
+    padding-left: 8%;
   }
 }
