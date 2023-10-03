@@ -25,6 +25,32 @@ div {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media (min-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+}
+
+.navbar {
+  background-color: #d2b686;
+}
+
+.navbar a {
+  color: #fff;
+  font-family: "Cardillac";
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.navbar a:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
 #mainSection {
   height: 100vh;
   position: relative;
