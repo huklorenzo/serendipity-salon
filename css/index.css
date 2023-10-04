@@ -55,6 +55,19 @@ div {
   height: 50px;
 }
 
+.navbar .btn {
+  border: 0;
+  padding: 10px 20px;
+  background-color: #fff;
+  transition: transform 0.2s;
+  color: #d2b686;
+}
+
+.navbar .btn:hover {
+  transform: scale(1.1);
+  color: #d2b686;
+}
+
 #mainSection {
   height: 100vh;
   position: relative;
@@ -68,7 +81,6 @@ div {
   background-size: cover;
   height: 100vh;
   width: 100%;
-
   position: absolute;
 }
 

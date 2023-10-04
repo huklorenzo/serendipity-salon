@@ -114,36 +114,9 @@ div {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#secondSection #aboutUsText {
+.row .col-lg-4 h2,
+.row .col-lg-4 h4 {
   color: #d2b686;
-}
-
-#aboutUsText p {
-  font-size: 1.2rem;
-  line-height: 1.4;
-}
-
-#missionVision {
-  color: #fff;
-}
-
-#missionVision .card {
-  background-color: #d2b686;
-  transition: transform 0.2s;
-}
-
-#missionVision .card:hover {
-  transform: scale(1.1);
-}
-
-.card-title {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.card-title,
-.card-text {
-  text-align: center;
 }
 
 footer {
