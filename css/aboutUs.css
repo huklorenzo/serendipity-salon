@@ -57,15 +57,30 @@ div {
 
 .navbar .btn {
   border: 0;
-  padding: 10px 20px;
   background-color: #fff;
   transition: transform 0.2s;
   color: #d2b686;
 }
 
+.navbar .book-now {
+  padding: 10px 20px;
+  margin-left: 30px;
+}
+
 .navbar .btn:hover {
   transform: scale(1.1);
   color: #d2b686;
+}
+
+.nav-social .btn-outline-secondary {
+  color: #d2b686;
+  border-color: #d2b686;
+  transition: transform 0.2s;
+}
+
+.nav-social .btn-outline-secondary:hover {
+  transform: scale(1.1);
+  background-color: #fff;
 }
 
 #mainSection {
