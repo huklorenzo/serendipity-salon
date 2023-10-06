@@ -86,7 +86,7 @@ div {
 
 #headerBackground::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   right: 0;
@@ -129,7 +129,7 @@ div {
   margin-bottom: 10px;
 }
 
-#mainSection button {
+#mainSection .btn {
   border: 0;
   padding: 10px 20px;
   background-color: #d2b686;
@@ -137,7 +137,7 @@ div {
   transition: transform 0.2s;
 }
 
-#mainSection button:hover {
+#mainSection .btn:hover {
   transform: scale(1.1);
 }
 
@@ -191,7 +191,7 @@ div {
   font-size: 14px;
 }
 
-#thirdSection button {
+#thirdSection .btn {
   border: 0;
   padding: 10px 20px;
   background-color: #fff;
@@ -199,7 +199,7 @@ div {
   transition: transform 0.2s;
 }
 
-#thirdSection button:hover {
+#thirdSection .btn:hover {
   transform: scale(1.1);
 }
 
