@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "Cardillac";
+  src: url("../assets/Cardillac-ExtraLight.ttf");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Cardillac";
+}
+
+p,
+a,
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-with-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+}
+
+.navbar {
+  background-color: #d2b686;
+}
+
+.navbar a {
+  color: #fff;
+  font-family: "Cardillac";
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.navbar a:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar .btn {
+  border: 0;
+  background-color: #fff;
+  transition: transform 0.2s;
+  color: #d2b686;
+}
+
+.navbar .book-now {
+  padding: 10px 20px;
+  margin-left: 30px;
+}
+
+.navbar .btn:hover {
+  transform: scale(1.1);
+  color: #d2b686;
+}
+
+.nav-social .btn-outline-secondary {
+  color: #d2b686;
+  border-color: #d2b686;
+  transition: transform 0.2s;
+}
+
+.nav-social .btn-outline-secondary:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+}
+
+#mainSection {
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#headerBackgroundImg {
+  height: 300px;
+  background-image: url("../assets/img/about-us/header-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+#headerBackground {
+  height: 300px;
+  background-color: #d2b686;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.5;
+  width: 100%;
+  top: 0;
+}
+
+#headerText {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+
+#headerText h1 {
+  font-size: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.breadcrumb {
+  background-color: transparent !important;
+}
+
+.breadcrumb-item a {
+  color: #d2b686;
+}
+
+.breadcrumb-item a:hover {
+  color: #d2b686;
+}
+
+.row .col-lg-12 {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #d2b686;
+}
+
+footer p {
+  margin: 0;
+  font-family: "Cardillac";
+  font-weight: bold;
+  color: #fff;
+}
+
+footer img {
+  height: 50px !important;
+}
+
+footer .btn-outline-secondary {
+  color: #fff;
+  border-color: #fff;
+}
+
+footer .btn-outline-secondary:hover {
+  color: #d2b686;
+  background-color: #fff;
+  border-color: #fff;
+}
