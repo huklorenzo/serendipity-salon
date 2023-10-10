@@ -76,6 +76,7 @@ div {
 }
 
 .navbar .book-now {
+  font-weight: bold;
   padding: 15px 20px 10px 15px;
   margin-left: 30px;
 }

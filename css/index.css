@@ -98,6 +98,7 @@ div {
 }
 
 .navbar .book-now {
+  font-weight: bold;
   padding: 15px 20px 10px 15px;
   margin-left: 30px;
 }
@@ -185,7 +186,7 @@ div {
 }
 
 #header-welcome h1 {
-  letter-spacing: 3px;
+  letter-spacing: 1.5px;
   font-weight: bold;
 }
 
@@ -200,7 +201,7 @@ div {
   background-color: #fff;
   color: #cfb584;
   transition: transform 0.2s;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 #mainSection .btn:hover {
@@ -262,6 +263,10 @@ div {
   font-size: 2rem;
 }
 
+.text-container p {
+  font-size: 20px;
+}
+
 #thirdSectionContainer .services-container h5 {
   font-weight: bold;
   font-size: 1.5rem;
@@ -273,6 +278,7 @@ div {
   background-color: #fff;
   color: #cfb584;
   transition: transform 0.2s;
+  font-size: 1.2rem;
 }
 
 #thirdSection .btn:hover {
