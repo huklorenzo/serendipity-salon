@@ -51,12 +51,17 @@ div {
 .navbar a {
   color: #fff;
   font-family: "kepler";
-  font-weight: bold;
   transition: transform 0.3s;
 }
 .navbar a:hover {
   transform: scale(1.1);
   color: #fff;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 10%;
+  left: 48%;
 }
 
 .navbar-brand img {
@@ -161,7 +166,6 @@ div {
 
 .card-title {
   font-size: 3rem;
-  font-weight: bold;
 }
 
 .card-title,
@@ -174,7 +178,6 @@ div {
 }
 
 footer {
-  height: 100px;
   width: 100%;
   background-color: #cfb584;
 }
