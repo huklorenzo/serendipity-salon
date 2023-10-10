@@ -26,7 +26,7 @@
   </head>
   <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <a class="navbar-brand" href="#"
         ><img class="img-fluid" src="assets/logo-white.png"
       /></a>
@@ -106,15 +106,21 @@
       <div id="headerBackground"></div>
       <div id="header">
         <div id="header-brand" class="mb-5">
-          <img
-            class="img-fluid"
-            src="assets/img/homepage/header.png"
-            alt="header"
-          />
+          <div class="col-lg-4">
+            <img class="img-fluid" src="assets/logo-white.png" />
+          </div>
+          <div class="col-lg-8">
+            <div class="header-text text-with-shadow">Serendipity</div>
+            <div class="header-sub-text text-with-shadow">
+              HAIR AND NAIL SALON
+            </div>
+          </div>
         </div>
         <div id="header-welcome">
-          <p>WELCOME TO SERENDIPITY SALON</p>
-          <h1><b>A MEMORABLE HAIR AND NAIL EXPERIENCE AWAITS</b></h1>
+          <p class="text-with-shadow">WELCOME TO SERENDIPITY SALON</p>
+          <h1 class="text-with-shadow">
+            A MEMORABLE HAIR AND NAIL EXPERIENCE AWAITS
+          </h1>
         </div>
         <div>
           <a class="btn shadow-lg rounded" href="pages/services.html"
@@ -284,7 +290,7 @@
           </div>
           <div class="services-container col-lg-5 bg-white rounded">
             <div>
-              <h5>HAIR COLOURING</h5>
+              <h5>HAIR SERVICES</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -292,7 +298,7 @@
               </p>
             </div>
             <div>
-              <h5>HAIR COLOURING</h5>
+              <h5>SPA TREATMENTS</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -300,7 +306,7 @@
               </p>
             </div>
             <div>
-              <h5>HAIR COLOURING</h5>
+              <h5>NAILS SERVICES</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -316,15 +322,18 @@
     <footer>
       <div class="container-fluid p-2">
         <div class="row">
-          <div class="col-lg-3"></div>
-          <div class="col-lg-6 text-center">
+          <div class="col-lg-4 text-center">
             <img class="img-fluid" src="assets/logo-peach.png" alt="logo" />
+          </div>
+          <div class="col-lg-4 text-center">
             <p>
               Comtrade Building Winston St. Corner Commonwealth Ave., Quezon
               City, Philippines
             </p>
             <p>Phone - +63 915 4682 368</p>
             <p>Email - serendipitysalon00@gmail.com</p>
+          </div>
+          <div class="col-lg-4 text-center">
             <div class="mt-2">
               <a
                 class="btn btn-outline-secondary btn-social mx-2"
@@ -352,9 +361,31 @@
               ></a>
             </div>
           </div>
-          <div class="col-lg-3"></div>
         </div>
       </div>
     </footer>
   </body>
+  <script>
+    $(document).ready(function () {
+      var lastScrollTop = 0;
+
+      $(window).scroll(function () {
+        var scrollTop = $(this).scrollTop();
+
+        // Show the navbar when scrolling down, hide it when scrolling up
+        if (scrollTop > lastScrollTop) {
+          // Scrolling down
+          if (scrollTop > 200) {
+            $(".navbar").addClass("show");
+          }
+        } else {
+          if (scrollTop < 200) {
+            $(".navbar").removeClass("show");
+          }
+        }
+
+        lastScrollTop = scrollTop;
+      });
+    });
+  </script>
 </html>

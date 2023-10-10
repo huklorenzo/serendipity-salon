@@ -1,6 +1,15 @@
 @font-face {
-  font-family: "Cardillac";
-  src: url("../assets/Cardillac-ExtraLight.ttf");
+  font-family: "kepler";
+  src: url("../assets/Kepler\ Std\ Light\ Extended\ Display.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nimbus";
+  src: url("../assets/nimbussandligcon.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
@@ -16,13 +25,13 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Cardillac";
+  font-family: "kepler";
 }
 
 p,
 a,
 div {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "nimbus";
 }
 
 .text-with-shadow {
@@ -36,16 +45,15 @@ div {
 }
 
 .navbar {
-  background-color: #d2b686;
+  background-color: #cfb584;
 }
 
 .navbar a {
   color: #fff;
-  font-family: "Cardillac";
+  font-family: "kepler";
   font-weight: bold;
   transition: transform 0.3s;
 }
-
 .navbar a:hover {
   transform: scale(1.1);
   color: #fff;
@@ -59,22 +67,22 @@ div {
   border: 0;
   background-color: #fff;
   transition: transform 0.2s;
-  color: #d2b686;
+  color: #cfb584;
 }
 
 .navbar .book-now {
-  padding: 10px 20px;
+  padding: 15px 20px 10px 15px;
   margin-left: 30px;
 }
 
 .navbar .btn:hover {
   transform: scale(1.1);
-  color: #d2b686;
+  color: #cfb584;
 }
 
 .nav-social .btn-outline-secondary {
-  color: #d2b686;
-  border-color: #d2b686;
+  color: #cfb584;
+  border-color: #cfb584;
   transition: transform 0.2s;
 }
 
@@ -105,7 +113,7 @@ div {
 
 #headerBackground {
   height: 300px;
-  background-color: #d2b686;
+  background-color: #cfb584;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -131,34 +139,45 @@ div {
 
 .breadcrumb {
   background-color: transparent !important;
+  font-size: 2rem;
 }
 
 .breadcrumb-item a {
-  color: #d2b686;
+  color: #cfb584;
 }
 
 .breadcrumb-item a:hover {
-  color: #d2b686;
+  color: #cfb584;
 }
 
 .row .col-lg-12 {
   text-align: center;
 }
 
+.btn-social {
+  padding: 0.5rem 0.75rem 0.2rem 0.75rem !important;
+}
+
 footer {
+  height: 100px;
   width: 100%;
-  background-color: #d2b686;
+  background-color: #cfb584;
+}
+
+footer .row {
+  justify-content: center;
+  align-items: center;
 }
 
 footer p {
   margin: 0;
-  font-family: "Cardillac";
+  font-family: "kepler";
   font-weight: bold;
   color: #fff;
 }
 
 footer img {
-  height: 50px !important;
+  height: 5rem !important;
 }
 
 footer .btn-outline-secondary {
@@ -167,7 +186,7 @@ footer .btn-outline-secondary {
 }
 
 footer .btn-outline-secondary:hover {
-  color: #d2b686;
+  color: #cfb584;
   background-color: #fff;
   border-color: #fff;
 }

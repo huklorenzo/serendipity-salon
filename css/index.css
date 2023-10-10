@@ -1,6 +1,15 @@
 @font-face {
-  font-family: "Cardillac";
-  src: url("../assets/Cardillac-ExtraLight.ttf");
+  font-family: "kepler";
+  src: url("../assets/Kepler\ Std\ Light\ Extended\ Display.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nimbus";
+  src: url("../assets/nimbussandligcon.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
@@ -16,13 +25,24 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Cardillac";
+  font-family: "kepler";
 }
 
 p,
 a,
 div {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "nimbus";
+}
+
+.header-text {
+  font-family: "kepler";
+  font-size: 5rem;
+  line-height: 2rem;
+}
+
+.header-sub-text {
+  font-family: nimbus;
+  font-size: 1.8rem;
 }
 
 .text-with-shadow {
@@ -36,12 +56,22 @@ div {
 }
 
 .navbar {
-  background-color: #d2b686;
+  background-color: #cfb584;
+  width: 100%;
+  height: 80px;
+  transition: visibility 0.5s, opacity 0.5s linear;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
 }
 
 .navbar a {
   color: #fff;
-  font-family: "Cardillac";
+  font-family: "kepler";
   font-weight: bold;
   transition: transform 0.3s;
 }
@@ -59,22 +89,22 @@ div {
   border: 0;
   background-color: #fff;
   transition: transform 0.2s;
-  color: #d2b686;
+  color: #cfb584;
 }
 
 .navbar .book-now {
-  padding: 10px 20px;
+  padding: 15px 20px 10px 15px;
   margin-left: 30px;
 }
 
 .navbar .btn:hover {
   transform: scale(1.1);
-  color: #d2b686;
+  color: #cfb584;
 }
 
 .nav-social .btn-outline-secondary {
-  color: #d2b686;
-  border-color: #d2b686;
+  color: #cfb584;
+  border-color: #cfb584;
   transition: transform 0.2s;
 }
 
@@ -89,7 +119,7 @@ div {
 }
 
 #headerBackground {
-  background-image: url("../assets/img/homepage/header-img.jpg");
+  background-image: url("../assets/img/homepage/slideshow/1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -101,12 +131,13 @@ div {
 
 #headerBackground::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #cfb584;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  opacity: 0.5;
 }
 
 #header {
@@ -118,7 +149,7 @@ div {
   bottom: 0;
   left: 0;
   margin: auto;
-  color: #d2b686;
+  color: #fff;
 }
 
 #header-brand {
@@ -126,6 +157,15 @@ div {
   align-items: center;
   text-align: left;
   justify-content: center;
+}
+
+#header-brand .col-lg-4 {
+  text-align: right;
+  padding: 0;
+}
+
+#header-brand img {
+  width: 13rem;
 }
 
 #header-brand h1,
@@ -147,8 +187,8 @@ div {
 #mainSection .btn {
   border: 0;
   padding: 10px 20px;
-  background-color: #d2b686;
-  color: #fff;
+  background-color: #fff;
+  color: #cfb584;
   transition: transform 0.2s;
 }
 
@@ -176,7 +216,7 @@ div {
 }
 
 #thirdSection {
-  background-color: #d2b686;
+  background-color: #cfb584;
   color: #fff;
   padding: 5% 0;
 }
@@ -198,7 +238,7 @@ div {
 #thirdSectionContainer .services-container {
   text-align: center;
   color: #000;
-  padding: 1.5%;
+  padding: 2.5%;
 }
 
 #thirdSectionContainer .services-container p {
@@ -210,7 +250,7 @@ div {
   border: 0;
   padding: 10px 20px;
   background-color: #fff;
-  color: #d2b686;
+  color: #cfb584;
   transition: transform 0.2s;
 }
 
@@ -228,32 +268,42 @@ div {
   }
 
   #thirdSectionContainer .services-container {
-    padding-left: 8%;
+    padding-left: 9%;
   }
 }
 
+.btn-social {
+  padding: 0.5rem 0.75rem 0.2rem 0.75rem !important;
+}
+
 footer {
+  height: 100px;
   width: 100%;
+}
+
+footer .row {
+  justify-content: center;
+  align-items: center;
 }
 
 footer p {
   margin: 0;
-  font-family: "Cardillac";
+  font-family: "kepler";
   font-weight: bold;
-  color: #d2b686;
+  color: #cfb584;
 }
 
 footer img {
-  height: 50px !important;
+  height: 5rem !important;
 }
 
 footer .btn-outline-secondary {
-  color: #d2b686;
-  border-color: #d2b686;
+  color: #cfb584;
+  border-color: #cfb584;
 }
 
 footer .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #d2b686;
-  border-color: #d2b686;
+  background-color: #cfb584;
+  border-color: #cfb584;
 }
