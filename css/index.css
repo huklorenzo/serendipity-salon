@@ -142,7 +142,7 @@ div {
   right: 0;
   bottom: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 #header {
@@ -184,8 +184,13 @@ div {
   font-size: 12px;
 }
 
+#header-welcome h1 {
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
 #header-welcome p {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
