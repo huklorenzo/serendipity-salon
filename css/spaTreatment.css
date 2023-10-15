@@ -164,6 +164,19 @@ div {
   padding: 0.5rem 0.75rem 0.2rem 0.75rem !important;
 }
 
+@media (max-width: 820px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    position: relative;
+  }
+}
+
 footer {
   width: 100%;
   background-color: #cfb584;

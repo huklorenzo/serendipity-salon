@@ -165,6 +165,12 @@ div {
   transform: scale(1.1);
 }
 
+@media (max-width: 820px) {
+  #missionVision .col-lg-6 {
+    margin-bottom: 20px;
+  }
+}
+
 .card-title {
   font-size: 3rem;
 }

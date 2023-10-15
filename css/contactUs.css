@@ -152,6 +152,12 @@ div {
   color: #cfb584;
 }
 
+@media (max-width: 820px) {
+  #secondSection .col-lg-8 {
+    margin-top: 20px;
+  }
+}
+
 .btn-social {
   padding: 0.5rem 0.75rem 0.2rem 0.75rem !important;
 }
