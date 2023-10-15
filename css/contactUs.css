@@ -143,6 +143,10 @@ div {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.row {
+  align-items: center;
+}
+
 .row .col-lg-4 h2,
 .row .col-lg-4 h4 {
   color: #cfb584;

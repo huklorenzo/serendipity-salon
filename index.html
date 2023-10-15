@@ -117,15 +117,21 @@
           </div>
         </div>
         <div id="header-welcome">
-          <p class="text-with-shadow">WELCOME TO SERENDIPITY SALON</p>
+          <p class="text-with-shadow">
+            <span>WELCOME TO SERENDIPITY SALON</span>
+          </p>
           <h1 class="text-with-shadow">
-            A MEMORABLE HAIR AND NAIL EXPERIENCE AWAITS
+            <span>A MEMORABLE </span>
+            <span>HAIR AND NAIL </span>
+            <span>EXPERIENCE AWAITS</span>
           </h1>
         </div>
-        <div>
-          <a class="btn shadow-lg rounded" href="pages/services.html"
-            >OUR SERVICES &#8594;
-          </a>
+        <div id="header-button">
+          <span
+            ><a class="btn shadow-lg rounded" href="pages/services.html"
+              >OUR SERVICES &#8594;
+            </a></span
+          >
         </div>
       </div>
     </section>
@@ -134,7 +140,7 @@
     <section id="secondSection">
       <div id="secondSectionContainer" class="container-fluid">
         <div class="row d-flex align-items-center">
-          <div class="text-container col-lg-5">
+          <div class="text-container col-lg-5 reveal">
             <h3>HERE TO SERVE YOU</h3>
             <p>
               Immerse yourself in a world of sheer indulgence, where our
@@ -254,7 +260,7 @@
     <section id="thirdSection">
       <div id="thirdSectionContainer" class="container-fluid">
         <div class="row d-flex align-items-center">
-          <div class="text-container col-lg-4">
+          <div class="text-container col-lg-4 reveal">
             <h3>OUR BEST SERVICES</h3>
             <p>
               Discover the artistry of our skilled stylists as they weave magic
@@ -364,27 +370,5 @@
       </div>
     </footer>
   </body>
-  <script>
-    $(document).ready(function () {
-      var lastScrollTop = 0;
-
-      $(window).scroll(function () {
-        var scrollTop = $(this).scrollTop();
-
-        // Show the navbar when scrolling down, hide it when scrolling up
-        if (scrollTop > lastScrollTop) {
-          // Scrolling down
-          if (scrollTop > 200) {
-            $(".navbar").addClass("show");
-          }
-        } else {
-          if (scrollTop < 200) {
-            $(".navbar").removeClass("show");
-          }
-        }
-
-        lastScrollTop = scrollTop;
-      });
-    });
-  </script>
+  <script src="index.js"></script>
 </html>

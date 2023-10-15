@@ -148,7 +148,7 @@ div {
 }
 
 #aboutUsText p {
-  font-size: 1.2rem;
+  font-size: 20px;
   line-height: 1.4;
 }
 
@@ -172,6 +172,15 @@ div {
 .card-title,
 .card-text {
   text-align: center;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.card-body {
+  line-height: 1.2;
+  min-height: 182px !important;
 }
 
 .btn-social {
