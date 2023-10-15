@@ -24,7 +24,7 @@ window.onload = function() {
     window.scrollTo(0, 0);
     
     const images = ['assets/img/homepage/slideshow/1.jpg', 'assets/img/homepage/slideshow/3.jpg', 'assets/img/homepage/slideshow/6.jpg', 'assets/img/homepage/slideshow/21.jpg', 'assets/img/homepage/slideshow/37.jpg', 'assets/img/homepage/slideshow/41.jpg', 'assets/img/homepage/slideshow/55.jpg'];
-    const transform = ['scale(1.2)', 'scale(1)', 'scale(1.2)', 'scale(1)', 'scale(1.3)']
+    const transform = ['scale(1.2)', 'scale(1)', 'scale(1.2)', 'scale(1)', 'scale(1.2)', 'scale(1)','scale(1.3)']
     const reveal = document.querySelector('.reveal');
     const reveal2 = document.querySelectorAll('.reveal')[1];
 
