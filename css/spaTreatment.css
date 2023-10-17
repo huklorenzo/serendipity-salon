@@ -156,6 +156,16 @@ div {
   color: #cfb584;
 }
 
+@media (max-width: 768px) {
+  #headerText h1 {
+    font-size: 4rem;
+  }
+
+  .breadcrumb {
+    font-size: 1.5rem;
+  }
+}
+
 .row .col-lg-12 {
   text-align: center;
 }

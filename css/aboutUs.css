@@ -152,6 +152,17 @@ div {
   line-height: 1.4;
 }
 
+@media (max-width: 768px) {
+  #headerText h1 {
+    font-size: 4rem;
+  }
+
+  #aboutUsText p {
+    padding: 0 20px;
+    text-align: center;
+  }
+}
+
 #missionVision {
   color: #fff;
 }

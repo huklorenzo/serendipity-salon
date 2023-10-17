@@ -133,7 +133,7 @@ div {
   height: 100vh;
   width: 100%;
   position: absolute;
-  transition: transform 5s;
+  transition: transform 6s;
   overflow: hidden;
 }
 
@@ -195,6 +195,36 @@ div {
 #header-welcome p {
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  #header {
+    top: 30%;
+  }
+  #header-brand img {
+    width: 6rem;
+  }
+
+  .header-text {
+    font-size: 2.5rem;
+  }
+
+  .header-sub-text {
+    font-size: 1rem;
+  }
+
+  #header-welcome {
+    margin-bottom: 20px;
+  }
+
+  #header-welcome p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  #header h1 {
+    font-size: 1.5rem !important;
+  }
 }
 
 #mainSection .btn {
@@ -288,6 +318,12 @@ div {
   opacity: 1;
 }
 
+@media (max-width: 768px) {
+  #secondSection {
+    padding: 10% 0;
+  }
+}
+
 #thirdSection {
   background-color: #cfb584;
   color: #fff;
@@ -344,6 +380,12 @@ div {
 
 #thirdSection .btn:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  #thirdSection {
+    padding: 10% 0;
+  }
 }
 
 @media (min-width: 900px) {

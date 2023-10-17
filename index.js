@@ -60,7 +60,7 @@ window.onload = function() {
      
 
       fadeIn(function() {
-        setTimeout(doSlideshow, 4000);
+        setTimeout(doSlideshow, 6000);
       });
     }
   

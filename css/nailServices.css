@@ -142,7 +142,6 @@ div {
   font-size: 6rem;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .breadcrumb {
   background-color: transparent !important;
   font-size: 2rem;
@@ -154,6 +153,16 @@ div {
 
 .breadcrumb-item a:hover {
   color: #cfb584;
+}
+
+@media (max-width: 768px) {
+  #headerText h1 {
+    font-size: 4rem;
+  }
+
+  .breadcrumb {
+    font-size: 1.5rem;
+  }
 }
 
 .row .col-lg-12 {
