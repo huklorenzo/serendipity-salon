@@ -17,7 +17,9 @@ html {
 }
 
 body {
-  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -368,6 +370,7 @@ div {
 footer {
   width: 100%;
   background-color: #cfb584;
+  margin-top: auto;
 }
 
 footer .row {
