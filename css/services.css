@@ -355,6 +355,7 @@ div {
   text-decoration: none;
   width: 90%;
   max-height: 220px;
+  min-height: 220px;
 }
 
 #secondSection .card:hover {
@@ -381,8 +382,26 @@ div {
   position: absolute;
 }
 
-#secondSection .card:hover .card-background {
-  background-image: url("../assets/img/homepage/homepage-3.jpg");
+#secondSection .card:hover .hair-bg {
+  background-image: url("../assets/img/about-us/header-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#secondSection .card:hover .nail-bg {
+  background-image: url("../assets/img/homepage/nails.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#secondSection .card:hover .promo-bg {
+  background-image: url("../assets/img/services/services.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
