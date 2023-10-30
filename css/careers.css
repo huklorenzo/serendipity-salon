@@ -346,6 +346,11 @@ div {
   align-items: center;
 }
 
+.row h4,
+.row h2 {
+  color: #cfb584;
+}
+
 .btn-social {
   padding: 0.5rem 0.75rem 0.2rem 0.75rem !important;
 }
