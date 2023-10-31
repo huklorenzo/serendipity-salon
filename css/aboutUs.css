@@ -388,7 +388,34 @@ div {
   background-attachment: scroll;
   background-size: cover;
   width: 100%;
-  padding: 2rem;
+  position: relative;
+}
+
+#thirdSection .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#darkBackground {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+#darkBackground::before {
+  content: "";
+  background-color: #cfb584;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
 }
 
 .circle {
@@ -398,8 +425,10 @@ div {
 }
 
 .employee,
-#thirdSection h1 {
-  color: #cfb584;
+#thirdSection h1,
+.employee h3 {
+  color: #fff;
+  font-weight: bold;
 }
 
 .employee h3 {
@@ -408,7 +437,6 @@ div {
 
 .carousel-control-next,
 .carousel-control-prev {
-  color: #cfb584 !important;
   opacity: 1 !important;
 }
 
