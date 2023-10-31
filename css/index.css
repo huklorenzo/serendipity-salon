@@ -648,6 +648,16 @@ div {
   #thirdSection {
     padding: 10% 0;
   }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    margin-bottom: 20px;
+  }
 }
 
 .btn-social {
