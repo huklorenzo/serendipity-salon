@@ -210,7 +210,7 @@ div {
 
 #headerBackgroundImg {
   height: 300px;
-  background-image: url("../assets/img/services/services-bg.jpg");
+  background-image: url("../assets/img/about-us/header-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -383,7 +383,16 @@ div {
 }
 
 #secondSection .card:hover .hair-bg {
-  background-image: url("../assets/img/about-us/header-image.jpg");
+  background-image: url("../assets/img/services/hair-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#secondSection .card:hover .spa-bg {
+  background-image: url("../assets/img/services/spa-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

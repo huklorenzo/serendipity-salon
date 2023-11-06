@@ -171,6 +171,103 @@ div {
   }
 }
 
+.navbar .btn {
+  border: 0;
+  background-color: #fff;
+  transition: transform 0.2s;
+  color: #cfb584;
+}
+
+.navbar .book-now {
+  font-weight: bold;
+  padding: 15px 20px 10px 15px;
+  margin-left: 30px;
+}
+
+.navbar .btn:hover {
+  transform: scale(1.1);
+  color: #cfb584;
+}
+
+.nav-social .btn-outline-secondary {
+  color: #cfb584;
+  border-color: #cfb584;
+  transition: transform 0.2s;
+}
+
+.nav-social .btn-outline-secondary:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+}
+
+#mainSection {
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#headerBackgroundImg {
+  height: 300px;
+  background-image: url("../assets/img/services/spa-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+#headerBackground {
+  height: 300px;
+  background-color: #cfb584;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.3;
+  width: 100%;
+  top: 0;
+}
+
+#headerText {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+
+#headerText h1 {
+  font-size: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.breadcrumb {
+  background-color: transparent !important;
+  font-size: 2rem;
+}
+
+.breadcrumb-item a {
+  color: #cfb584;
+}
+
+.breadcrumb-item a:hover {
+  color: #cfb584;
+}
+
+@media (max-width: 760px) {
+  #headerText h1 {
+    font-size: 4rem;
+  }
+
+  .breadcrumb {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 900px) {
   .navbar-brand {
     left: 45%;
@@ -261,94 +358,8 @@ div {
   }
 }
 
-.navbar .btn {
-  border: 0;
-  background-color: #fff;
-  transition: transform 0.2s;
-  color: #cfb584;
-}
-
-.navbar .book-now {
-  font-weight: bold;
-  padding: 15px 20px 10px 15px;
-  margin-left: 30px;
-}
-
-.navbar .btn:hover {
-  transform: scale(1.1);
-  color: #cfb584;
-}
-
-.nav-social .btn-outline-secondary {
-  color: #cfb584;
-  border-color: #cfb584;
-  transition: transform 0.2s;
-}
-
-.nav-social .btn-outline-secondary:hover {
-  transform: scale(1.1);
-  background-color: #fff;
-}
-
-#mainSection {
-  position: relative;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#headerBackgroundImg {
-  height: 300px;
-  background-image: url("../assets/img/careers/career-header-bg.jpg");
-  background-position: 0% 75%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  top: 0;
-}
-
-#headerBackground {
-  height: 300px;
-  background-color: #cfb584;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  position: absolute;
-  z-index: 1;
-  opacity: 0.3;
-  width: 100%;
-  top: 0;
-}
-
-#headerText {
-  color: #fff;
-  font-weight: bold;
+.row .col-lg-12 {
   text-align: center;
-  z-index: 1;
-}
-
-#headerText h1 {
-  font-size: 6rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@media (max-width: 760px) {
-  #headerText h1 {
-    font-size: 4rem;
-  }
-}
-
-.row {
-  align-items: center;
-}
-
-.row h4,
-.row h2 {
-  color: #cfb584;
 }
 
 .btn-social {
