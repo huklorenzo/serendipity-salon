@@ -476,6 +476,13 @@ div {
   color: #cfb584;
 }
 
+.col-lg-12 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #cfb584;
+}
+
 #thirdSection .card {
   width: 80%;
 }
